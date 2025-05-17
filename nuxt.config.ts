@@ -13,7 +13,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/ui',
-    '@nuxthq/studio'
   ],
 
   css: ['~/assets/css/tailwind.css'],
