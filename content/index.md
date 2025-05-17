@@ -2,10 +2,8 @@
 
 Here is some content.
 
-::div{.w-full .bg-green-200 .p-4}
-Another way to use it!
+::div{.w-full.bg-green-200.p-4}
+Another way to use it! Yay
 ::
 
-::h1
-I'm an H1
-::
+# I'm an H1
