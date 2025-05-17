@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
-@source '~/content';
+@source '../../content';
 
 @theme static {
 	--font-sans: 'Public Sans', sans-serif;
@@ -55,18 +55,6 @@
 	--color-primary-900: var(--color-orange-900);
 	--color-primary-950: var(--color-orange-950);
 
-	--ui-color-primary-50: var(--color-primary-50);
-	--ui-color-primary-100: var(--color-primary-100);
-	--ui-color-primary-200: var(--color-primary-200);
-	--ui-color-primary-300: var(--color-primary-300);
-	--ui-color-primary-400: var(--color-primary-400);
-	--ui-color-primary-500: var(--color-primary-500);
-	--ui-color-primary-600: var(--color-primary-600);
-	--ui-color-primary-700: var(--color-primary-700);
-	--ui-color-primary-800: var(--color-primary-800);
-	--ui-color-primary-900: var(--color-primary-900);
-	--ui-color-primary-950: var(--color-primary-950);
-
 	--color-secondary-50: var(--color-musk-50);
 	--color-secondary-100: var(--color-musk-100);
 	--color-secondary-200: var(--color-musk-200);
@@ -78,18 +66,6 @@
 	--color-secondary-800: var(--color-musk-800);
 	--color-secondary-900: var(--color-musk-900);
 	--color-secondary-950: var(--color-musk-950);
-
-	--ui-color-secondary-50: var(--color-secondary-50);
-	--ui-color-secondary-100: var(--color-secondary-100);
-	--ui-color-secondary-200: var(--color-secondary-200);
-	--ui-color-secondary-300: var(--color-secondary-300);
-	--ui-color-secondary-400: var(--color-secondary-400);
-	--ui-color-secondary-500: var(--color-secondary-500);
-	--ui-color-secondary-600: var(--color-secondary-600);
-	--ui-color-secondary-700: var(--color-secondary-700);
-	--ui-color-secondary-800: var(--color-secondary-800);
-	--ui-color-secondary-900: var(--color-secondary-900);
-	--ui-color-secondary-950: var(--color-secondary-950);
 
 	--color-tertiary-50: var(--color-teal-50);
 	--color-tertiary-100: var(--color-teal-100);
@@ -107,4 +83,28 @@
 :root {
 	--ui-primary: var(--ui-color-primary-300);
 	--ui-secondary: var(--ui-color-secondary-400);
+
+	--ui-color-secondary-50: var(--color-secondary-50);
+	--ui-color-secondary-100: var(--color-secondary-100);
+	--ui-color-secondary-200: var(--color-secondary-200);
+	--ui-color-secondary-300: var(--color-secondary-300);
+	--ui-color-secondary-400: var(--color-secondary-400);
+	--ui-color-secondary-500: var(--color-secondary-500);
+	--ui-color-secondary-600: var(--color-secondary-600);
+	--ui-color-secondary-700: var(--color-secondary-700);
+	--ui-color-secondary-800: var(--color-secondary-800);
+	--ui-color-secondary-900: var(--color-secondary-900);
+	--ui-color-secondary-950: var(--color-secondary-950);
+
+	--ui-color-primary-50: var(--color-primary-50);
+	--ui-color-primary-100: var(--color-primary-100);
+	--ui-color-primary-200: var(--color-primary-200);
+	--ui-color-primary-300: var(--color-primary-300);
+	--ui-color-primary-400: var(--color-primary-400);
+	--ui-color-primary-500: var(--color-primary-500);
+	--ui-color-primary-600: var(--color-primary-600);
+	--ui-color-primary-700: var(--color-primary-700);
+	--ui-color-primary-800: var(--color-primary-800);
+	--ui-color-primary-900: var(--color-primary-900);
+	--ui-color-primary-950: var(--color-primary-950);
 }

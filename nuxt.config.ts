@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
+// import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
@@ -17,6 +17,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // vite: {
+  //   plugins: [
+  //     tailwindcss(),
+  //   ],
+  // },
+
   content: {
     preview: {
       api: 'https://api.nuxt.studio'
@@ -26,7 +32,13 @@ export default defineNuxtConfig({
   ui: {
     theme: {
       colors: [
+        'primary',
+        'secondary',
         'tertiary',
+        'info',
+        'success',
+        'warning',
+        'error'
       ]
     }
   }
