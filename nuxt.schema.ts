@@ -2,7 +2,7 @@ import {field, group} from '@nuxt/content/preview'
 
 export default defineNuxtSchema({
 	appConfig: {
-		contactDetails: group({
+		contact: group({
 			title: 'Contact Details',
 			description: 'Contact details configuration.',
 			icon: 'lucide:link',
@@ -16,11 +16,11 @@ export default defineNuxtSchema({
 				}),
 
 				whatsapp: field({
-					type: 'number',
+					type: 'string',
 					title: 'Whatsapp',
-					description: 'Your Whatsapp number.',
+					description: "Your Whatsapp number (include area code, but omit the '+'.",
 					icon: 'lucide:whatsapp',
-					default: 8000000000,
+					default: '2700000000',
 				}),
 			},
 		}),

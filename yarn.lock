@@ -2061,7 +2061,7 @@
     postcss "^8.4.41"
     tailwindcss "4.1.7"
 
-"@tailwindcss/vite@^4.1.6", "@tailwindcss/vite@^4.1.7":
+"@tailwindcss/vite@^4.1.6":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@tailwindcss/vite/-/vite-4.1.7.tgz#73fb55d2341982fb920f916e1ef6781099cf2df6"
   integrity sha512-tYa2fO3zDe41I7WqijyVbRd8oWT0aEID1Eokz5hMT6wShLIHj3yvwj9XbfuloHP9glZ6H+aG2AN/+ZrxJ1Y5RQ==

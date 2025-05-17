@@ -1,7 +1,7 @@
 export default defineAppConfig({
 	contact: {
 		email: 'info@psicologaconrique.com',
-		whatsapp: 34617019537
+		whatsapp: "34617019537"
 	},
 	socials: {
 		facebook: 'https://www.facebook.com/Psic%C3%B3loga-Cristina-Romo-Conrique-337878334034461',

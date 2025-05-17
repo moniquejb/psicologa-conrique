@@ -1,8 +1,8 @@
-# My First Page [Markdown]{.text-secondary.bg-red-900}
+# My First Page [Markdown]{class="text-secondary bg-red-900"}
 
 Here is some content.
 
-::div{.w-full.bg-red-900.p-4.text-primary}
+::div{class="w-full bg-red-800 p-4 text-primary"}
 Another way to use it! Yay me
 ::
 
