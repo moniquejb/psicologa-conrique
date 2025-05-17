@@ -1,7 +1,8 @@
 <template>
 	<ContentRenderer v-if="home" :value="home" />
 	<div v-else>Home not found</div>
-	<div class="text-red-500">Hey</div>
+	<div class="text-tertiary">Hey</div>
+	<UButton color="tertiary">Button</UButton>
 </template>
 
 <script setup lang="ts">

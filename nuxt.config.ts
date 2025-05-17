@@ -15,17 +15,19 @@ export default defineNuxtConfig({
     '@nuxt/ui',
   ],
 
-  css: ['~/assets/css/tailwind.css'],
-
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
-  },
+  css: ['~/assets/css/main.css'],
 
   content: {
     preview: {
       api: 'https://api.nuxt.studio'
+    }
+  },
+
+  ui: {
+    theme: {
+      colors: [
+        'tertiary',
+      ]
     }
   }
 })
