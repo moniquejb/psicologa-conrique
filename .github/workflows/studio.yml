@@ -24,9 +24,6 @@ jobs:
   # Build job
   build-and-deploy:
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: .
 
     strategy:
       matrix:
