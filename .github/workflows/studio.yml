@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [20]
+        node: [22]
 
     steps:
       - name: Checkout code
