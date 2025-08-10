@@ -24,5 +24,5 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: { preset: process.env.NITRO_PRESET || 'static' },
+  nitro: { preset: 'static' },
 });
