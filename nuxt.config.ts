@@ -2,34 +2,27 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxt/content',
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/scripts',
-    '@nuxt/test-utils',
-    '@nuxt/ui'
-  ],
+  modules: ["@nuxt/content", "@nuxt/eslint", "@nuxt/image", "@nuxt/scripts", "@nuxt/test-utils", "@nuxt/ui"],
 
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
 
   vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+    plugins: [tailwindcss()],
   },
 
   content: {
     preview: {
-      api: 'https://api.nuxt.studio',
+      api: "https://api.nuxt.studio",
       gitInfo: {
-        name: 'Psicologa Conrique',
-        owner: 'Monique Blignaut',
-        url: 'https://github.com/moniquejb/psicologa-conrique'
-      }
-    }
-  }
-})
+        name: "Psicologa Conrique",
+        owner: "Monique Blignaut",
+        url: "https://github.com/moniquejb/psicologa-conrique",
+      },
+    },
+  },
+
+  nitro: { preset: process.env.NITRO_PRESET || 'static' },
+});
