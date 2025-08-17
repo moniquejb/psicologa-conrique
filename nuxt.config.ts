@@ -15,7 +15,12 @@ export default defineNuxtConfig({
 
   content: {
     preview: {
-      api: 'https://api.nuxt.studio'
+      api: 'https://api.nuxt.studio',
+      gitInfo: {
+        name: 'psicologa-conrique',
+        owner: 'moniquejb',
+        url: 'https://github.com/moniquejb/psicologa-conrique'
+      }
     }
   },
 
