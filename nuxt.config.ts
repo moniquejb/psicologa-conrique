@@ -13,5 +13,11 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+
   nitro: { preset: 'static' },
 });
