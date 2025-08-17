@@ -13,16 +13,5 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  content: {
-    preview: {
-      api: "https://api.nuxt.studio",
-      gitInfo: {
-        name: "Psicologa Conrique",
-        owner: "Monique Blignaut",
-        url: "https://github.com/moniquejb/psicologa-conrique",
-      },
-    },
-  },
-
   nitro: { preset: 'static' },
 });
