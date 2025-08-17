@@ -35,7 +35,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build project
-        run: yarn run build
+        run: yarn generate
         env:
           # Optional: only if your nuxt.config.ts reads this
           NITRO_PRESET: github_pages
@@ -47,11 +47,11 @@ jobs:
       - name: List repo root files
         run: ls -al
 
-      - name: List .output folder contents
-        run: ls -alR .output || echo ".output folder does not exist"
+      - name: List .dist folder contents
+        run: ls -alR .dist || echo ".dist folder does not exist"
       # ====================================
 
       - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: .output/public
+          folder: .dist
