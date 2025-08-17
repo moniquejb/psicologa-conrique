@@ -1,27 +1,27 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style id="nuxt-ui-colors">@layer base {
   :root {
-  --ui-color-primary-50: var(--color-green-50, oklch(98.2% 0.018 155.826));
-  --ui-color-primary-100: var(--color-green-100, oklch(96.2% 0.044 156.743));
-  --ui-color-primary-200: var(--color-green-200, oklch(92.5% 0.084 155.995));
-  --ui-color-primary-300: var(--color-green-300, oklch(87.1% 0.15 154.449));
-  --ui-color-primary-400: var(--color-green-400, oklch(79.2% 0.209 151.711));
-  --ui-color-primary-500: var(--color-green-500, oklch(72.3% 0.219 149.579));
-  --ui-color-primary-600: var(--color-green-600, oklch(62.7% 0.194 149.214));
-  --ui-color-primary-700: var(--color-green-700, oklch(52.7% 0.154 150.069));
-  --ui-color-primary-800: var(--color-green-800, oklch(44.8% 0.119 151.328));
-  --ui-color-primary-900: var(--color-green-900, oklch(39.3% 0.095 152.535));
-  --ui-color-primary-950: var(--color-green-950, oklch(26.6% 0.065 152.934));
-  --ui-color-secondary-50: var(--color-blue-50, oklch(97% 0.014 254.604));
-  --ui-color-secondary-100: var(--color-blue-100, oklch(93.2% 0.032 255.585));
-  --ui-color-secondary-200: var(--color-blue-200, oklch(88.2% 0.059 254.128));
-  --ui-color-secondary-300: var(--color-blue-300, oklch(80.9% 0.105 251.813));
-  --ui-color-secondary-400: var(--color-blue-400, oklch(70.7% 0.165 254.624));
-  --ui-color-secondary-500: var(--color-blue-500, oklch(62.3% 0.214 259.815));
-  --ui-color-secondary-600: var(--color-blue-600, oklch(54.6% 0.245 262.881));
-  --ui-color-secondary-700: var(--color-blue-700, oklch(48.8% 0.243 264.376));
-  --ui-color-secondary-800: var(--color-blue-800, oklch(42.4% 0.199 265.638));
-  --ui-color-secondary-900: var(--color-blue-900, oklch(37.9% 0.146 265.522));
-  --ui-color-secondary-950: var(--color-blue-950, oklch(28.2% 0.091 267.935));
+  --ui-color-primary-50: var(--color-orange-50, oklch(98% 0.016 73.684));
+  --ui-color-primary-100: var(--color-orange-100, oklch(95.4% 0.038 75.164));
+  --ui-color-primary-200: var(--color-orange-200, oklch(90.1% 0.076 70.697));
+  --ui-color-primary-300: var(--color-orange-300, oklch(83.7% 0.128 66.29));
+  --ui-color-primary-400: var(--color-orange-400, oklch(75% 0.183 55.934));
+  --ui-color-primary-500: var(--color-orange-500, oklch(70.5% 0.213 47.604));
+  --ui-color-primary-600: var(--color-orange-600, oklch(64.6% 0.222 41.116));
+  --ui-color-primary-700: var(--color-orange-700, oklch(55.3% 0.195 38.402));
+  --ui-color-primary-800: var(--color-orange-800, oklch(47% 0.157 37.304));
+  --ui-color-primary-900: var(--color-orange-900, oklch(40.8% 0.123 38.172));
+  --ui-color-primary-950: var(--color-orange-950, oklch(26.6% 0.079 36.259));
+  --ui-color-secondary-50: var(--color-musk-50, );
+  --ui-color-secondary-100: var(--color-musk-100, );
+  --ui-color-secondary-200: var(--color-musk-200, );
+  --ui-color-secondary-300: var(--color-musk-300, );
+  --ui-color-secondary-400: var(--color-musk-400, );
+  --ui-color-secondary-500: var(--color-musk-500, );
+  --ui-color-secondary-600: var(--color-musk-600, );
+  --ui-color-secondary-700: var(--color-musk-700, );
+  --ui-color-secondary-800: var(--color-musk-800, );
+  --ui-color-secondary-900: var(--color-musk-900, );
+  --ui-color-secondary-950: var(--color-musk-950, );
   --ui-color-success-50: var(--color-green-50, oklch(98.2% 0.018 155.826));
   --ui-color-success-100: var(--color-green-100, oklch(96.2% 0.044 156.743));
   --ui-color-success-200: var(--color-green-200, oklch(92.5% 0.084 155.995));
@@ -66,17 +66,28 @@
   --ui-color-error-800: var(--color-red-800, oklch(44.4% 0.177 26.899));
   --ui-color-error-900: var(--color-red-900, oklch(39.6% 0.141 25.723));
   --ui-color-error-950: var(--color-red-950, oklch(25.8% 0.092 26.042));
-  --ui-color-neutral-50: var(--color-slate-50, oklch(98.4% 0.003 247.858));
-  --ui-color-neutral-100: var(--color-slate-100, oklch(96.8% 0.007 247.896));
-  --ui-color-neutral-200: var(--color-slate-200, oklch(92.9% 0.013 255.508));
-  --ui-color-neutral-300: var(--color-slate-300, oklch(86.9% 0.022 252.894));
-  --ui-color-neutral-400: var(--color-slate-400, oklch(70.4% 0.04 256.788));
-  --ui-color-neutral-500: var(--color-slate-500, oklch(55.4% 0.046 257.417));
-  --ui-color-neutral-600: var(--color-slate-600, oklch(44.6% 0.043 257.281));
-  --ui-color-neutral-700: var(--color-slate-700, oklch(37.2% 0.044 257.287));
-  --ui-color-neutral-800: var(--color-slate-800, oklch(27.9% 0.041 260.031));
-  --ui-color-neutral-900: var(--color-slate-900, oklch(20.8% 0.042 265.755));
-  --ui-color-neutral-950: var(--color-slate-950, oklch(12.9% 0.042 264.695));
+  --ui-color-neutral-50: var(--color-zinc-50, oklch(98.5% 0 0));
+  --ui-color-neutral-100: var(--color-zinc-100, oklch(96.7% 0.001 286.375));
+  --ui-color-neutral-200: var(--color-zinc-200, oklch(92% 0.004 286.32));
+  --ui-color-neutral-300: var(--color-zinc-300, oklch(87.1% 0.006 286.286));
+  --ui-color-neutral-400: var(--color-zinc-400, oklch(70.5% 0.015 286.067));
+  --ui-color-neutral-500: var(--color-zinc-500, oklch(55.2% 0.016 285.938));
+  --ui-color-neutral-600: var(--color-zinc-600, oklch(44.2% 0.017 285.786));
+  --ui-color-neutral-700: var(--color-zinc-700, oklch(37% 0.013 285.805));
+  --ui-color-neutral-800: var(--color-zinc-800, oklch(27.4% 0.006 286.033));
+  --ui-color-neutral-900: var(--color-zinc-900, oklch(21% 0.006 285.885));
+  --ui-color-neutral-950: var(--color-zinc-950, oklch(14.1% 0.005 285.823));
+  --ui-color-tertiary-50: var(--color-teal-50, oklch(98.4% 0.014 180.72));
+  --ui-color-tertiary-100: var(--color-teal-100, oklch(95.3% 0.051 180.801));
+  --ui-color-tertiary-200: var(--color-teal-200, oklch(91% 0.096 180.426));
+  --ui-color-tertiary-300: var(--color-teal-300, oklch(85.5% 0.138 181.071));
+  --ui-color-tertiary-400: var(--color-teal-400, oklch(77.7% 0.152 181.912));
+  --ui-color-tertiary-500: var(--color-teal-500, oklch(70.4% 0.14 182.503));
+  --ui-color-tertiary-600: var(--color-teal-600, oklch(60% 0.118 184.704));
+  --ui-color-tertiary-700: var(--color-teal-700, oklch(51.1% 0.096 186.391));
+  --ui-color-tertiary-800: var(--color-teal-800, oklch(43.7% 0.078 188.216));
+  --ui-color-tertiary-900: var(--color-teal-900, oklch(38.6% 0.063 188.416));
+  --ui-color-tertiary-950: var(--color-teal-950, oklch(27.7% 0.046 192.524));
   }
   :root, .light {
   --ui-primary: var(--ui-color-primary-500);
@@ -85,6 +96,7 @@
   --ui-info: var(--ui-color-info-500);
   --ui-warning: var(--ui-color-warning-500);
   --ui-error: var(--ui-color-error-500);
+  --ui-tertiary: var(--ui-color-tertiary-500);
   }
   .dark {
   --ui-primary: var(--ui-color-primary-400);
@@ -93,5 +105,6 @@
   --ui-info: var(--ui-color-info-400);
   --ui-warning: var(--ui-color-warning-400);
   --ui-error: var(--ui-color-error-400);
+  --ui-tertiary: var(--ui-color-tertiary-400);
   }
-}</style><title>My First Page</title><link rel="stylesheet" href="/_nuxt/entry.Bq676CDG.css" crossorigin><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?47e46fff-4402-452f-b739-9370f894b5e7"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/q6K6qKGP.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/O2Q_Wmic.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Dgkhow0Q.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/B7j5q2ZE.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/BENNeBA3.js"><link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/47e46fff-4402-452f-b739-9370f894b5e7.json"><link rel="prefetch" as="style" crossorigin href="/_nuxt/index.Cg9X1Qt0.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DLHCFwPH.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BGzDZpzy.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/t-CXNxx6.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/DmxXf588.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BLZSh_Lw.js"><meta name="description" content="Here is some content."><script type="module" src="/_nuxt/q6K6qKGP.js" crossorigin></script><script>"use strict";(()=>{const t=window,e=document.documentElement,c=["dark","light"],n=getStorageValue("localStorage","nuxt-color-mode")||"system";let i=n==="system"?u():n;const r=e.getAttribute("data-color-mode-forced");r&&(i=r),l(i),t["__NUXT_COLOR_MODE__"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=""+o+"",a="";e.classList?e.classList.add(s):e.className+=" "+s,a&&e.setAttribute("data-"+a,o)}function d(o){const s=""+o+"",a="";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,"g"),""),a&&e.removeAttribute("data-"+a)}function f(o){return t.matchMedia("(prefers-color-scheme"+o+")")}function u(){if(t.matchMedia&&f("").media!=="not all"){for(const o of c)if(f(":"+o).matches)return o}return"light"}})();function getStorageValue(t,e){switch(t){case"localStorage":return window.localStorage.getItem(e);case"sessionStorage":return window.sessionStorage.getItem(e);case"cookie":return getCookie(e);default:return null}}function getCookie(t){const c=("; "+window.document.cookie).split("; "+t+"=");if(c.length===2)return c.pop()?.split(";").shift()}</script></head><body><div id="__nuxt" class="isolate"><div><div></div><div><h1 class="text-3xl font-bold underline text-primary">Hello world!</h1><div><h1 id="my-first-page"><!--[-->My First Page<!--]--></h1><p><!--[-->Here is some content.<!--]--></p></div></div></div></div><div id="teleports"></div><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/_payload.json?47e46fff-4402-452f-b739-9370f894b5e7">[{"state":1,"once":7,"_errors":8,"serverRendered":5,"path":10,"prerenderedAt":11},["Reactive",2],{"$scolor-mode":3},{"preference":4,"value":4,"unknown":5,"forced":6},"system",true,false,["Set"],["ShallowReactive",9],{"$QD8d9NkvSp":-1},"/",1755417705699]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{content:{wsUrl:""},mdc:{components:{prose:true,map:{}},headings:{anchorLinks:{h1:false,h2:true,h3:true,h4:true,h5:false,h6:false}}},"nuxt-scripts":{version:"",defaultScriptOptions:{trigger:"onNuxtReady"}},preview:{api:"https://api.nuxt.studio",iframeMessagingAllowedOrigins:""}},app:{baseURL:"/",buildId:"47e46fff-4402-452f-b739-9370f894b5e7",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>
+}</style><title>My First Page</title><link rel="stylesheet" href="/_nuxt/entry.Bq676CDG.css" crossorigin><link rel="preload" as="fetch" crossorigin="anonymous" href="/_payload.json?6c65431d-0db9-4179-bc28-e9258d2dafb5"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/Dzf1TdCP.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/CeGc6RaY.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/DN_KNuK4.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/hFbbQdFH.js"><link rel="modulepreload" as="script" crossorigin href="/_nuxt/DmsWN4UV.js"><link rel="preload" as="fetch" fetchpriority="low" crossorigin="anonymous" href="/_nuxt/builds/meta/6c65431d-0db9-4179-bc28-e9258d2dafb5.json"><link rel="prefetch" as="style" crossorigin href="/_nuxt/index.Cg9X1Qt0.css"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BN8ZQhmX.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BfaPAyE0.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/BEhSVXaR.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/CUK_r_rn.js"><link rel="prefetch" as="script" crossorigin href="/_nuxt/Cz4UBG_T.js"><meta name="description" content="Here is some content."><script type="module" src="/_nuxt/Dzf1TdCP.js" crossorigin></script><script>"use strict";(()=>{const t=window,e=document.documentElement,c=["dark","light"],n=getStorageValue("localStorage","nuxt-color-mode")||"system";let i=n==="system"?u():n;const r=e.getAttribute("data-color-mode-forced");r&&(i=r),l(i),t["__NUXT_COLOR_MODE__"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=""+o+"",a="";e.classList?e.classList.add(s):e.className+=" "+s,a&&e.setAttribute("data-"+a,o)}function d(o){const s=""+o+"",a="";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,"g"),""),a&&e.removeAttribute("data-"+a)}function f(o){return t.matchMedia("(prefers-color-scheme"+o+")")}function u(){if(t.matchMedia&&f("").media!=="not all"){for(const o of c)if(f(":"+o).matches)return o}return"light"}})();function getStorageValue(t,e){switch(t){case"localStorage":return window.localStorage.getItem(e);case"sessionStorage":return window.sessionStorage.getItem(e);case"cookie":return getCookie(e);default:return null}}function getCookie(t){const c=("; "+window.document.cookie).split("; "+t+"=");if(c.length===2)return c.pop()?.split(";").shift()}</script></head><body><div id="__nuxt" class="isolate"><div><div></div><div><h1 class="text-3xl font-bold underline text-primary">Hello world!</h1><div><h1 id="my-first-page"><!--[-->My First Page<!--]--></h1><p><!--[-->Here is some content.<!--]--></p></div></div></div></div><div id="teleports"></div><script type="application/json" data-nuxt-data="nuxt-app" data-ssr="true" id="__NUXT_DATA__" data-src="/_payload.json?6c65431d-0db9-4179-bc28-e9258d2dafb5">[{"state":1,"once":7,"_errors":8,"serverRendered":5,"path":10,"prerenderedAt":11},["Reactive",2],{"$scolor-mode":3},{"preference":4,"value":4,"unknown":5,"forced":6},"system",true,false,["Set"],["ShallowReactive",9],{"$QD8d9NkvSp":-1},"/",1755418084567]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{content:{wsUrl:""},mdc:{components:{prose:true,map:{}},headings:{anchorLinks:{h1:false,h2:true,h3:true,h4:true,h5:false,h6:false}}},"nuxt-scripts":{version:"",defaultScriptOptions:{trigger:"onNuxtReady"}},preview:{api:"https://api.nuxt.studio",iframeMessagingAllowedOrigins:""}},app:{baseURL:"/",buildId:"6c65431d-0db9-4179-bc28-e9258d2dafb5",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body></html>
